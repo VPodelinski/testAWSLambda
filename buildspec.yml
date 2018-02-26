@@ -1,4 +1,3 @@
-
   "Transform" : "AWS::Serverless-2016-10-31"
   "Description": "A simple Lambda function saying \"Hello\"."
   "Resources":
