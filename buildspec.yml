@@ -1,15 +1,19 @@
-  "Transform" : "AWS::Serverless-2016-10-31"
-  "Description": "A simple Lambda function saying \"Hello\"."
-  "Resources":
-    "HelloWorld":
-      "Type": "AWS::Serverless::Function"
-      "Properties":
-        "Handler": "by.vitali.demo.function.pojo.Hello"
-        "Runtime": "java8"
-        "CodeUri": "./target/demo-1.0.0.jar"
-        "Events":
-          "GetResource":
-            "Type": "Api"
-            "Properties":
-              "Path": "/input2"
-              "Method": "post"
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Nothing to do in the install phase...
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Build started on `date`
+      - mvn install
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - target/demo-1.0.0.jar
