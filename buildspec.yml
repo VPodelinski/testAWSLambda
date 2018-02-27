@@ -17,3 +17,4 @@ phases:
 artifacts:
   files:
     - target/demo-1.0.0.jar
+    - serveless.json
