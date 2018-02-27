@@ -1,4 +1,4 @@
 #test AWS Lambda
 
 
-//  "Description": "A simple Lambda function saying \"Hello\".",
+  "Transform" : "AWS::Serverless-2016-10-31",
