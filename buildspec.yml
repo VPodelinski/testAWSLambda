@@ -15,6 +15,6 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-    -type: zip
+    -type: jar
        files:
          - serveless.json
