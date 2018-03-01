@@ -8,7 +8,7 @@
       "Properties": {
         "Handler": "by.vitali.demo.function.pojo.Hello",
         "Runtime": "java8",
-        "CodeUri": "s3://vitalibucket2702/target/demo-1.0.0.jar",
+        "CodeUri": "s3://vitalibucket2702/demo-1.0.0.jar",
         "Events": {
           "GetResource": {
             "Type": "Api",
