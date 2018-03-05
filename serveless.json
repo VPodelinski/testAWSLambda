@@ -8,7 +8,7 @@
       "Properties": {
         "Handler": "by.vitali.demo.function.pojo.Hello",
         "Runtime": "java8",
-        "CodeUri": "s3://codepipeline-us-west-1-992934380380/vtestpipeline/MyAppBuild",
+        "CodeUri": "s3://codepipeline-us-west-1-992934380380/vtestpipeline/MyAppBuild/myZip.zip",
         "Events": {
           "GetResource": {
             "Type": "Api",
